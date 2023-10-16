@@ -3,48 +3,44 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: 'white',
+      backgroundColor: '0F0F0F',
       alignItems: 'center',
       justifyContent: 'center',
+      marginTop:31,
+      
     },
     header:{
       flexDirection:'row',
-      backgroundColor:'red',
       width:'100%',
       height:'8%',
     },
     textoDePefil:{
-      backgroundColor:'white',
       width:'55%',
       alignItems:'start',
-      justifyContent:'center',
+      justifyContent:'start',
     },
     botNav:{
-      backgroundColor:'red',
       width:'45%',
       alignItems:'flex-end',
     },
     body:{
       height:'77%',
       width:'100%',
-      backgroundColor:'green',
     },
     parteCima:{
       height:'30%',
       width:'100%',
-      flexDirection:'row',
-      backgroundColor:'pink',
     },
     voltaImg:{
       height:'100%',
       width:'40%',
-      backgroundColor:'red',
+      alignItems:'center',
+      justifyContent:'center',
     },
     tituloH1:{
       height:'100%',
       width:'60%',
       justifyContent:'flex-end',
-      backgroundColor:'white',
     },
     escritoH2:{
       fontSize:25,
@@ -57,8 +53,43 @@ export const styles = StyleSheet.create({
       borderWidth: 5,
       borderRadius: 100,
     },
+    meio:{
+      height: '40%',
+      width: '100%',
+      marginTop:31,
+    },
+    linhas:{
+      flexDirection:'row',
+      height: '20%',
+      width: '100%',
+    },
+    viewTextTipo:{
+      width:'50%',
+      height: '100%',
+      alignItems:'center',
+      justifyContent:'center',
+    },
+    viewInpt:{
+      justifyContent:'center',
+      width:'50%',
+      height: '100%',
+    },
+    baixo:{
+      width:'100%',
+      height: '30%',
+      alignItems:'center',
+      justifyContent:'center',
+    },
+    botaoAdd:{
+      height:'30%',
+      width:'30%',
+      borderWidth:1,
+      borderRadius:10,
+      backgroundColor:'#ffa500',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
     footer:{
-      backgroundColor:'red',
       width:'100%',
       height:'15%',
     },

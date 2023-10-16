@@ -20,7 +20,7 @@ export default function Routes(){
                     backgroundColor:'#f5f5dc',
                     borderTopWidth: 0,
 
-                    height:55,
+                    height:'13%',
                 }    
             }}
         >

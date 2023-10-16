@@ -2,9 +2,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, TextInput, View,TouchableOpacity } from 'react-native';
 import { styles } from './styles'
-
+import { useNavigation } from "@react-navigation/native";
 
 export default function Registro() {
+    
+    const navigation = useNavigation();
+    
   return (
     <View style={styles.container}>
 
