@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '0F0F0F',
+      backgroundColor: '#',
       alignItems: 'center',
       justifyContent: 'center',
       marginTop:31,
@@ -30,48 +30,75 @@ export const styles = StyleSheet.create({
     parteCima:{
       height:'30%',
       width:'100%',
-    },
-    voltaImg:{
-      height:'100%',
-      width:'40%',
-      alignItems:'center',
       justifyContent:'center',
+      alignItems:'center',
     },
-    tituloH1:{
-      height:'100%',
-      width:'60%',
-      justifyContent:'flex-end',
-    },
-    escritoH2:{
-      fontSize:25,
-      fontWeight:'bold',
-    },
+    // voltaImg:{
+    //   height:'100%',
+    //   width:'40%',
+    //   alignItems:'center',
+    //   justifyContent:'center',
+    // },
     logUm:{
       height: 150,
       width: 150,
       borderColor: 'red',
       borderWidth: 5,
       borderRadius: 100,
+      alignItems:'center',
+      justifyContent:'center',
+    },
+    // addFotoPerfil:{
+    //   paddingLeft:75,
+    //   marginTop:75,
+    // },
+    // trocarImg:{
+    //   height:20,
+    //   width:20,
+    //   borderWidth:1,
+    //   borderRadius: 100,
+    //   backgroundColor:'blue',
+    //   alignItems:'center',
+    //   justifyContent:'center',
+    // },
+    mais:{
+      color:'white',
+      
+    },
+    tituloH1:{
+      height:'5%',
+      width:'100%',
+      justifyContent:'center',
+      alignItems:'center',
+      marginTop:25,
+    },
+    escritoH2:{
+      fontSize:25,
+      fontWeight:'bold',
     },
     meio:{
       height: '40%',
       width: '100%',
-      marginTop:31,
+      marginTop:25,
+      alignItems:'center',
+      justifyContent:'center',
     },
     linhas:{
       flexDirection:'row',
       height: '20%',
       width: '100%',
+      alignItems:'center',
+      justifyContent:'center',
     },
     viewTextTipo:{
-      width:'50%',
+      width:'55%',
       height: '100%',
       alignItems:'center',
       justifyContent:'center',
     },
     viewInpt:{
       justifyContent:'center',
-      width:'50%',
+      width:'45%',
       height: '100%',
     },
     baixo:{

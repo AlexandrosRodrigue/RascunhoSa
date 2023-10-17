@@ -36,9 +36,14 @@ export default function Perfil() {
           <View style={styles.logUm}>
             <FontAwesome
             name='user'
-            size={45}
+            size={100}
             color='white'
           />
+            {/* <View style={styles.addFotoPerfil}>
+              <TouchableOpacity onPress={mudar} style={styles.trocarImg}>
+                <Text style={styles.mais}>+</Text>
+              </TouchableOpacity>
+            </View> */}
           </View>
           <View style={styles.tituloH1}>
             <Text style={styles.escritoH2}>Informações pessoais</Text>
