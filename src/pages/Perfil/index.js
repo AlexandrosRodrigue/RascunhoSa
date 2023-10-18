@@ -19,7 +19,7 @@ export default function Perfil() {
 
       <View style={styles.header}>
         <View style={styles.textoDePefil}>
-          <Text style={styles.textoH1}>Perfil</Text>
+          <Text style={styles.texto}>Perfil</Text>
         </View>
         <View style={styles.botNav}>
           <TouchableOpacity onPress={irConf} style={styles.botaoNav}>

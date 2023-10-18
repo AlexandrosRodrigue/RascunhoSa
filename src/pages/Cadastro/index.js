@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View,TextInput, } from 'react-native';
-import {Picker} from '@react-native-picker/picker';
 import { styles } from './styles'
 import { useState } from 'react';
 import { TouchableOpacity } from 'react-native-web';
+
 
 export default function Cadastro() {
   const [selectGenero, setSelectGenero] = useState(0)

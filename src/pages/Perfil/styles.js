@@ -19,6 +19,9 @@ export const styles = StyleSheet.create({
       alignItems:'start',
       justifyContent:'start',
     },
+    texto:{
+      fontSize:35,
+    },
     botNav:{
       width:'45%',
       alignItems:'flex-end',
@@ -42,7 +45,7 @@ export const styles = StyleSheet.create({
     logUm:{
       height: 150,
       width: 150,
-      borderColor: 'red',
+      borderColor: 'black',
       borderWidth: 5,
       borderRadius: 100,
       alignItems:'center',
@@ -63,7 +66,6 @@ export const styles = StyleSheet.create({
     // },
     mais:{
       color:'white',
-      
     },
     tituloH1:{
       height:'5%',
@@ -112,7 +114,7 @@ export const styles = StyleSheet.create({
       width:'30%',
       borderWidth:1,
       borderRadius:10,
-      backgroundColor:'#ffa500',
+      backgroundColor:'#f5f5dc',
       justifyContent: 'center',
       alignItems: 'center',
     },
