@@ -18,29 +18,42 @@ export const styles = StyleSheet.create({
       fontSize:23,
     },
     viewInputsGeral:{
-      height:'90%',
+      height:'80%',
       width:'100%',
-      alignItems: 'center',
+      alignItems: 'start',
       justifyContent: 'flex-start',
-      gap:10,
     },
-    viewInput:{
-      height:'10%',
-      width:'100%',
-      alignItems: 'center',
-      justifyContent: 'center',
-      
+    linha:{
+      flexDirection:'row',
+      height: '10%',
+      width: '100%',
+    },
+    titulosInput:{
+      height:'100%',
+      width:'55%',
+      alignItems:'center',
+      justifyContent:'center',
     },
     textInput:{
       fontSize:19,
   
     },
-    input:{
-      borderWidth:1,
-      borderColor:'#b87e14',
-      height:'100%',
-      width:'55%',
-      borderRadius:10,
-    }
+    viewInput:{
+      justifyContent:'center',
+      width:'45%',
+      height: '100%',
+    },
+    // input:{
+    //   borderWidth:1,
+    //   borderColor:'#b87e14',
+    //   height:'50%',
+    //   width:'55%',
+    //   borderRadius:10,
+    // },
+    viewBot:{
+      height:'10%',
+      width:'100%',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
   });
-  
